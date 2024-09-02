@@ -12,11 +12,12 @@ struct ProfileView: View {
     @State private var buttonSelects: [Bool] = Array(repeating: false, count: 8)
     @State private var isSheet = false
     @State private var profileImage = Image(NSDataAssetName(stringLiteral: "profile_0"))
+    @State private var selectedIndex = 0
     
     var body: some View {
         VStack(spacing: 40) {
             NavigationLink {
-                ProfileImageView(profileImage: $profileImage)
+                ProfileImageView(profileImage: $profileImage, selectedIndex: $selectedIndex)
             } label: {
                 profileImage
                     .resizable()
