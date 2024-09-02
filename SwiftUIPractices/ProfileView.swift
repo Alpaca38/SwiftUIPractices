@@ -11,12 +11,18 @@ struct ProfileView: View {
     @State private var nicknameText: String = ""
     @State private var buttonSelects: [Bool] = Array(repeating: false, count: 8)
     @State private var isSheet = false
+    @State private var profileImage = Image(NSDataAssetName(stringLiteral: "profile_0"))
     
     var body: some View {
         VStack(spacing: 40) {
-            Image(NSDataAssetName(stringLiteral: "profile_0"))
-                .resizable()
-                .asCircleWithBorderColor(width: 100, height: 100, borderColor: .blue, lineWidth: 4)
+            NavigationLink {
+                ProfileImageView(profileImage: $profileImage)
+            } label: {
+                profileImage
+                    .resizable()
+                    .asCircleWithBorderColor(width: 100, height: 100, borderColor: .blue, lineWidth: 4)
+            }
+
             
             TextField("닉네임을 입력해주세요 :)", text: $nicknameText)
                 .padding(.horizontal, 10)
@@ -51,7 +57,7 @@ struct ProfileView: View {
     }
 }
 
-struct MBTIGridView: View {
+private struct MBTIGridView: View {
     @Binding var buttonSelects: [Bool]
     
     var columns: [GridItem] = Array(repeating: .init(.fixed(50)), count: 4)
