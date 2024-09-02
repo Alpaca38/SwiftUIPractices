@@ -9,16 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            VStack(spacing: 80) {
+                Image(NSDataAssetName(stringLiteral: "snaps_image"))
+                Image(NSDataAssetName(stringLiteral: "launchImage"))
+                
+                NavigationLink {
+                    ProfileView()
+                } label: {
+                    Text("시작하기")
+                        .asRoundedRectWithColor(color: .blue)
+                }
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
 }
+

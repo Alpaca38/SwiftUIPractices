@@ -11,6 +11,11 @@
 		D15D90242C85735A002C4D1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D90232C85735A002C4D1F /* ContentView.swift */; };
 		D15D90262C85735C002C4D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15D90252C85735C002C4D1F /* Assets.xcassets */; };
 		D15D90292C85735C002C4D1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15D90282C85735C002C4D1F /* Preview Assets.xcassets */; };
+		D15D90302C857559002C4D1F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D902F2C857559002C4D1F /* ProfileView.swift */; };
+		D15D90322C857607002C4D1F /* RoundedRectWithColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D90312C857607002C4D1F /* RoundedRectWithColor.swift */; };
+		D15D90342C857F21002C4D1F /* CircleWithBorderColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D90332C857F21002C4D1F /* CircleWithBorderColor.swift */; };
+		D15D90362C858907002C4D1F /* SignInCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D90352C858907002C4D1F /* SignInCompleteView.swift */; };
+		D15D903B2C859AF0002C4D1F /* MBTIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D903A2C859AF0002C4D1F /* MBTIItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		D15D90232C85735A002C4D1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D15D90252C85735C002C4D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D15D90282C85735C002C4D1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D15D902F2C857559002C4D1F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D15D90312C857607002C4D1F /* RoundedRectWithColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectWithColor.swift; sourceTree = "<group>"; };
+		D15D90332C857F21002C4D1F /* CircleWithBorderColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleWithBorderColor.swift; sourceTree = "<group>"; };
+		D15D90352C858907002C4D1F /* SignInCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInCompleteView.swift; sourceTree = "<group>"; };
+		D15D903A2C859AF0002C4D1F /* MBTIItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTIItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				D15D90212C85735A002C4D1F /* SwiftUIPracticesApp.swift */,
 				D15D90232C85735A002C4D1F /* ContentView.swift */,
+				D15D902F2C857559002C4D1F /* ProfileView.swift */,
+				D15D90352C858907002C4D1F /* SignInCompleteView.swift */,
+				D15D903A2C859AF0002C4D1F /* MBTIItem.swift */,
+				D15D90332C857F21002C4D1F /* CircleWithBorderColor.swift */,
+				D15D90312C857607002C4D1F /* RoundedRectWithColor.swift */,
 				D15D90252C85735C002C4D1F /* Assets.xcassets */,
 				D15D90272C85735C002C4D1F /* Preview Content */,
 			);
@@ -138,7 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D15D90242C85735A002C4D1F /* ContentView.swift in Sources */,
+				D15D90362C858907002C4D1F /* SignInCompleteView.swift in Sources */,
+				D15D903B2C859AF0002C4D1F /* MBTIItem.swift in Sources */,
+				D15D90302C857559002C4D1F /* ProfileView.swift in Sources */,
 				D15D90222C85735A002C4D1F /* SwiftUIPracticesApp.swift in Sources */,
+				D15D90342C857F21002C4D1F /* CircleWithBorderColor.swift in Sources */,
+				D15D90322C857607002C4D1F /* RoundedRectWithColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
