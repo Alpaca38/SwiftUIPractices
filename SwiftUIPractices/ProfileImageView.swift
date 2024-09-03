@@ -16,7 +16,6 @@ struct ProfileImage: Identifiable {
 struct ProfileImageView: View {
     @Binding var profileImage: Image
     @Binding var selectedIndex: Int
-    @State private var buttonSelects: [Bool] = Array(repeating: false, count: 12)
     
     var body: some View {
         VStack(spacing: 40) {
@@ -24,7 +23,7 @@ struct ProfileImageView: View {
                 .resizable()
                 .asCircleWithBorderColor(width: 100, height: 100, borderColor: .blue, lineWidth: 4)
             
-            ProfileGridView(buttonSelects: $buttonSelects, profileImage: $profileImage, selectedIndex: $selectedIndex)
+            ProfileGridView(profileImage: $profileImage, selectedIndex: $selectedIndex)
             Spacer()
         }
         .padding()
@@ -32,7 +31,6 @@ struct ProfileImageView: View {
 }
 
 private struct ProfileGridView: View {
-    @Binding var buttonSelects: [Bool]
     @Binding var profileImage: Image
     @Binding var selectedIndex: Int
     
@@ -63,17 +61,13 @@ private struct ProfileGridView: View {
     
     func profileImageItem(_ item: ProfileImage) -> some View {
         Button {
-            for i in 0..<buttonSelects.count {
-                buttonSelects[i] = false
-            }
-            buttonSelects[item.index].toggle()
             profileImage = Image(item.name)
             selectedIndex = item.index
         } label: {
             Image(item.name)
                 .resizable()
-                .asCircleWithBorderColor(width: 80, height: 80, borderColor: buttonSelects[item.index] || selectedIndex == item.index ? .blue : .gray, lineWidth: buttonSelects[item.index] ? 2 : 1)
-                .opacity(buttonSelects[item.index] || selectedIndex == item.index ? 1 : 0.5)
+                .asCircleWithBorderColor(width: 80, height: 80, borderColor: selectedIndex == item.index ? .blue : .gray, lineWidth: selectedIndex == item.index ? 2 : 1)
+                .opacity(selectedIndex == item.index ? 1 : 0.5)
         }
     }
 }
