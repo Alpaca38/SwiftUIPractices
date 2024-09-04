@@ -71,30 +71,30 @@ struct CoinView: View {
     }
     
     func rowView(_ item: Market) -> some View {
-        NavigationLink {
-            CoinDetailView(marketData: item)
-        } label: {
-            HStack {
-                VStack(alignment: .leading) {
-                    Text(item.koreanName)
-                        .bold()
-                    Text(item.market)
-                        .font(.caption)
-                        .foregroundStyle(.gray)
-                }
-                Spacer()
-                Text(item.englishName)
+        HStack {
+            VStack(alignment: .leading) {
+                Text(item.koreanName)
+                    .bold()
+                Text(item.market)
+                    .font(.caption)
+                    .foregroundStyle(.gray)
             }
-            .foregroundStyle(.black)
-            .padding(.horizontal, 20)
-            .padding(.vertical, 6)
+            Spacer()
+            Text(item.englishName)
         }
+        .foregroundStyle(.black)
+        .padding(.horizontal, 20)
+        .padding(.vertical, 6)
     }
     
     func listView() -> some View {
         LazyVStack { // 보이지 않는 rowView는 인스턴스를 생성하지 않음
             ForEach(filteredList, id: \.self) { item in
-                rowView(item)
+                NavigationLink {
+                    CoinDetailView(marketData: item)
+                } label: {
+                    rowView(item)
+                }
             }
         }
     }

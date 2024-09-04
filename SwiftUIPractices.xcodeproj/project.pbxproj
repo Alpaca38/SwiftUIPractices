@@ -24,6 +24,9 @@
 		D15D905B2C87225A002C4D1F /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D905A2C87225A002C4D1F /* Market.swift */; };
 		D15D905D2C87226A002C4D1F /* UpbitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D905C2C87226A002C4D1F /* UpbitAPI.swift */; };
 		D15D90632C8724E9002C4D1F /* CoinDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D90622C8724E9002C4D1F /* CoinDetailView.swift */; };
+		D15D906B2C8859CC002C4D1F /* MyRandomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D906A2C8859CC002C4D1F /* MyRandomImageView.swift */; };
+		D15D906D2C886120002C4D1F /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D906C2C886120002C4D1F /* ImageDetailView.swift */; };
+		D15D906F2C8864C6002C4D1F /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D906E2C8864C6002C4D1F /* NavigationLazyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		D15D905A2C87225A002C4D1F /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
 		D15D905C2C87226A002C4D1F /* UpbitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpbitAPI.swift; sourceTree = "<group>"; };
 		D15D90622C8724E9002C4D1F /* CoinDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailView.swift; sourceTree = "<group>"; };
+		D15D906A2C8859CC002C4D1F /* MyRandomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRandomImageView.swift; sourceTree = "<group>"; };
+		D15D906C2C886120002C4D1F /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
+		D15D906E2C8864C6002C4D1F /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,9 @@
 				D15D904C2C871CC4002C4D1F /* SearchView.swift */,
 				D15D90542C8721D5002C4D1F /* CoinView.swift */,
 				D15D90622C8724E9002C4D1F /* CoinDetailView.swift */,
+				D15D906A2C8859CC002C4D1F /* MyRandomImageView.swift */,
+				D15D906C2C886120002C4D1F /* ImageDetailView.swift */,
+				D15D906E2C8864C6002C4D1F /* NavigationLazyView.swift */,
 				D15D90562C8721F3002C4D1F /* Banner.swift */,
 				D15D905A2C87225A002C4D1F /* Market.swift */,
 				D15D905C2C87226A002C4D1F /* UpbitAPI.swift */,
@@ -179,15 +188,18 @@
 				D15D90552C8721D5002C4D1F /* CoinView.swift in Sources */,
 				D15D903D2C859E54002C4D1F /* ProfileImageView.swift in Sources */,
 				D15D904D2C871CC4002C4D1F /* SearchView.swift in Sources */,
+				D15D906D2C886120002C4D1F /* ImageDetailView.swift in Sources */,
 				D15D90242C85735A002C4D1F /* ContentView.swift in Sources */,
 				D15D90362C858907002C4D1F /* SignInCompleteView.swift in Sources */,
 				D15D90572C8721F3002C4D1F /* Banner.swift in Sources */,
 				D15D903B2C859AF0002C4D1F /* MBTIItem.swift in Sources */,
+				D15D906B2C8859CC002C4D1F /* MyRandomImageView.swift in Sources */,
 				D15D90302C857559002C4D1F /* ProfileView.swift in Sources */,
 				D15D90632C8724E9002C4D1F /* CoinDetailView.swift in Sources */,
 				D15D90532C871FFE002C4D1F /* Money.swift in Sources */,
 				D15D905B2C87225A002C4D1F /* Market.swift in Sources */,
 				D15D905D2C87226A002C4D1F /* UpbitAPI.swift in Sources */,
+				D15D906F2C8864C6002C4D1F /* NavigationLazyView.swift in Sources */,
 				D15D90222C85735A002C4D1F /* SwiftUIPracticesApp.swift in Sources */,
 				D15D90342C857F21002C4D1F /* CircleWithBorderColor.swift in Sources */,
 				D15D90322C857607002C4D1F /* RoundedRectWithColor.swift in Sources */,
