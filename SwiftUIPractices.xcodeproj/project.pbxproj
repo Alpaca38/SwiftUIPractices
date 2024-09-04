@@ -27,6 +27,8 @@
 		D15D906B2C8859CC002C4D1F /* MyRandomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D906A2C8859CC002C4D1F /* MyRandomImageView.swift */; };
 		D15D906D2C886120002C4D1F /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D906C2C886120002C4D1F /* ImageDetailView.swift */; };
 		D15D906F2C8864C6002C4D1F /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D906E2C8864C6002C4D1F /* NavigationLazyView.swift */; };
+		D15D90732C88A475002C4D1F /* CategoryUpgradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D90722C88A475002C4D1F /* CategoryUpgradeView.swift */; };
+		D15D90752C88A96F002C4D1F /* ButtonWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D90742C88A96F002C4D1F /* ButtonWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		D15D906A2C8859CC002C4D1F /* MyRandomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRandomImageView.swift; sourceTree = "<group>"; };
 		D15D906C2C886120002C4D1F /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
 		D15D906E2C8864C6002C4D1F /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
+		D15D90722C88A475002C4D1F /* CategoryUpgradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryUpgradeView.swift; sourceTree = "<group>"; };
+		D15D90742C88A96F002C4D1F /* ButtonWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 				D15D90622C8724E9002C4D1F /* CoinDetailView.swift */,
 				D15D906A2C8859CC002C4D1F /* MyRandomImageView.swift */,
 				D15D906C2C886120002C4D1F /* ImageDetailView.swift */,
+				D15D90722C88A475002C4D1F /* CategoryUpgradeView.swift */,
+				D15D90742C88A96F002C4D1F /* ButtonWrapper.swift */,
 				D15D906E2C8864C6002C4D1F /* NavigationLazyView.swift */,
 				D15D90562C8721F3002C4D1F /* Banner.swift */,
 				D15D905A2C87225A002C4D1F /* Market.swift */,
@@ -188,9 +194,11 @@
 				D15D90552C8721D5002C4D1F /* CoinView.swift in Sources */,
 				D15D903D2C859E54002C4D1F /* ProfileImageView.swift in Sources */,
 				D15D904D2C871CC4002C4D1F /* SearchView.swift in Sources */,
+				D15D90732C88A475002C4D1F /* CategoryUpgradeView.swift in Sources */,
 				D15D906D2C886120002C4D1F /* ImageDetailView.swift in Sources */,
 				D15D90242C85735A002C4D1F /* ContentView.swift in Sources */,
 				D15D90362C858907002C4D1F /* SignInCompleteView.swift in Sources */,
+				D15D90752C88A96F002C4D1F /* ButtonWrapper.swift in Sources */,
 				D15D90572C8721F3002C4D1F /* Banner.swift in Sources */,
 				D15D903B2C859AF0002C4D1F /* MBTIItem.swift in Sources */,
 				D15D906B2C8859CC002C4D1F /* MyRandomImageView.swift in Sources */,
